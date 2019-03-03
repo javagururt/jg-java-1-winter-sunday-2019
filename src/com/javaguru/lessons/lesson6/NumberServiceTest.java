@@ -7,13 +7,13 @@ class NumberServiceTest {
         int firstNumber = 1;
         int secondNumber = 10;
 
-//        service.printInRange(firstNumber, secondNumber);
-//
-//        System.out.println();
-//        System.out.println(firstNumber);
-//        System.out.println(secondNumber);
-//
-//        System.out.println();
+        service.printInRange(firstNumber, secondNumber);
+
+        System.out.println();
+        System.out.println(firstNumber);
+        System.out.println(secondNumber);
+
+        System.out.println();
 
         service.printEvenNumbersInRange(firstNumber, secondNumber);
     }
